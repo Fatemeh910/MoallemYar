@@ -33,7 +33,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.30"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:dd5f4f4cf92bcccb539a3f80476619f6f266582847651ca17d2549106d727949036d1fa2f5e85b8c1a29ec0f5ee9319f5b0836ff009293417b7a8503fa3c8cd9#npm:18.2.0"],\
-            ["tailwindcss", "npm:3.3.3"]\
+            ["tailwindcss", "npm:3.3.3"],\
+            ["vazirmatn", "npm:33.0.3"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1425,7 +1426,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.30"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:dd5f4f4cf92bcccb539a3f80476619f6f266582847651ca17d2549106d727949036d1fa2f5e85b8c1a29ec0f5ee9319f5b0836ff009293417b7a8503fa3c8cd9#npm:18.2.0"],\
-            ["tailwindcss", "npm:3.3.3"]\
+            ["tailwindcss", "npm:3.3.3"],\
+            ["vazirmatn", "npm:33.0.3"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2377,6 +2379,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",\
           "packageDependencies": [\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vazirmatn", [\
+        ["npm:33.0.3", {\
+          "packageLocation": "./.yarn/cache/vazirmatn-npm-33.0.3-2a48291357-4e7709bba8.zip/node_modules/vazirmatn/",\
+          "packageDependencies": [\
+            ["vazirmatn", "npm:33.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
