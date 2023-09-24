@@ -1,11 +1,11 @@
-import Exambox from "@/components/Exambox"
+import Exambox from "@/components/Exambox";
 
-const UserPanelDashboard = ()=>{
-    return (
-        <div className="">
-            <Exambox />
-        </div>
-    )
-}
+const UserPanelDashboard = () => {
+  return (
+    <div className="">
+      <Exambox />
+    </div>
+  );
+};
 
-export default UserPanelDashboard
+export default UserPanelDashboard;
