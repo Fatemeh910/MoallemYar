@@ -1,7 +1,9 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Popover } from "antd";
-import style from "@/components/exam.module.css"
+import style from "@/components/exam.module.css";
+import { useState } from "react";
 
 //popover menu
 const content = (
@@ -22,6 +24,14 @@ const content = (
 );
 
 const Exambox = (Props) => {
+  const [like, setlike] = useState(false);
+  const change = () => {
+    if (like == false) {
+      setlike(true);
+    } else {
+      setlike(false);
+    }
+  };
   return (
     <div className="flex flex-col w-1/5">
       <div className="flex ">
@@ -40,12 +50,12 @@ const Exambox = (Props) => {
             <div className="">
               <Popover
                 content={content}
-                title="عنوان"
                 className={style.popoverTitle}
                 trigger="click"
               >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
+                  style={{ color: "red" }}
                   alt="verticalmenu"
                 />
               </Popover>
@@ -55,7 +65,11 @@ const Exambox = (Props) => {
             <div className="text-datecolor">{Props.date}</div>
             <div className="text-timecolor">{Props.time}</div>
             <div className="">
-              <img src="/assets/icon/heart.svg" />
+              {!like ? (
+                <img src="/assets/icon/heart.svg" onClick={change} />
+              ) : (
+                <img src="/assets/icon/redheart.svg" onClick={change} />
+              )}
             </div>
           </div>
         </div>
