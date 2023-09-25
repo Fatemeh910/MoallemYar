@@ -2,20 +2,27 @@ import Image from "next/image";
 import Link from "next/link";
 import { Popover } from "antd";
 
-
 //popover menu
 const content = (
   <div className="flex flex-col text-right">
-    <a href="#" className="text-textcolor text-textcolor hover:text-linkhovercolor">لینک شماره 1</a>
-    <a href="#" className="text-textcolor text-textcolor hover:text-linkhovercolor">لینک شماره 2</a>
+    <a
+      href="#"
+      className="text-textcolor text-textcolor hover:text-linkhovercolor"
+    >
+      لینک شماره 1
+    </a>
+    <a
+      href="#"
+      className="text-textcolor text-textcolor hover:text-linkhovercolor"
+    >
+      لینک شماره 2
+    </a>
   </div>
 );
-
 
 const Exambox = () => {
   return (
     <div className="flex flex-col w-1/5">
-
       <div className="flex ">
         <div className=" justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
           <div className="">
@@ -35,7 +42,6 @@ const Exambox = () => {
                 title="عنوان"
                 className="text-textcolor"
                 trigger="click"
-                
               >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
