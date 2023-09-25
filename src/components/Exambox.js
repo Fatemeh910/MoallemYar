@@ -10,18 +10,19 @@ const content = (
   </div>
 );
 
-
 const Exambox = () => {
   return (
     <div className="flex flex-col ">
       <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
-        <h3 className=" text-textcolor"> آخرین امتحانات</h3>
+        <h3 className=" text-textcolor p-2"> آخرین امتحانات</h3>
         <h3 className="flex items-center text-textcolor">
-          <img
-            src="/assets/icon/leftArrow.svg"
-            style={{ width: 15, marginRight: 15, color: "#555555" }}
-          />{" "}
-          مشاهده همه{" "}
+          <a href="#" className="flex p-2 rounded-xl hover:bg-linkbghover bg-opacity-5">
+            <img
+              src="/assets/icon/leftArrow.svg"
+              style={{ width: 15, marginRight: 15, color: "#555555" }}
+            />
+            مشاهده
+          </a>
         </h3>
       </div>
       <div className="flex ">
@@ -38,7 +39,12 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
+              <Popover
+                content={content}
+                title="عنوان"
+                className="text-textcolor"
+                trigger="click"
+              >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -67,7 +73,12 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
+              <Popover
+                content={content}
+                title="عنوان"
+                className="text-textcolor"
+                trigger="click"
+              >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -96,7 +107,12 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
+              <Popover
+                content={content}
+                title="عنوان"
+                className="text-textcolor"
+                trigger="click"
+              >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -125,7 +141,12 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="text-timecolor">
-              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
+              <Popover
+                content={content}
+                title="عنوان"
+                className="text-textcolor"
+                trigger="click"
+              >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -154,7 +175,12 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-              <Popover content={content} title="عنوان" className="text-textcolor " trigger="click">
+              <Popover
+                content={content}
+                title="عنوان"
+                className="text-textcolor "
+                trigger="click"
+              >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
