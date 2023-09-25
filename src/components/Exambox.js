@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Popover } from "antd";
+import style from "@/components/exam.module.css"
 
 //popover menu
 const content = (
@@ -40,7 +41,7 @@ const Exambox = (Props) => {
               <Popover
                 content={content}
                 title="عنوان"
-                className="text-textcolor float-right"
+                className={style.popoverTitle}
                 trigger="click"
               >
                 <img
