@@ -2,8 +2,9 @@ import Exambox from "@/components/Exambox";
 
 const UserPanelDashboard = () => {
   return (
-    <div className="">
+    <div className="felx">
       <Exambox />
+
     </div>
   );
 };
