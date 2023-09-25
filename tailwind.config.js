@@ -13,7 +13,7 @@ module.exports = {
       'datecolor': '#B9B9B9',
       'timecolor': '#B9B9B9',
       'linkhoercolor': '#40189E',
-      'tahiti': '#3ab7bf',
+      'linkbghover': '#3ab7bf',
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
