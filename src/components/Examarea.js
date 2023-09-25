@@ -4,6 +4,13 @@ import Link from "next/link";
 
 const Examarea = () => {
   // slick slider
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   return (
     <div className="flex flex-col ">
@@ -55,30 +62,6 @@ const Examarea = () => {
         />
         <Exambox
           title="عنوان امتحان 6"
-          time="13:30"
-          date="1400/10/16"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 7"
-          time="13:30"
-          date="1400/10/16"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 8"
-          time="13:30"
-          date="1400/10/16"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 9"
-          time="13:30"
-          date="1400/10/16"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 10"
           time="13:30"
           date="1400/10/16"
           imageSrc="/assets/img/image1.png"

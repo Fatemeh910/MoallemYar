@@ -35,7 +35,7 @@ const Exambox = (Props) => {
   return (
     <div className="flex flex-col w-1/5">
       <div className="flex ">
-        <div className=" justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
+        <div className=" justify-betweem mx-2 rounded-2xl flex flex-col shadow-md">
           <div className="">
             <Image
               src={Props.imageSrc}
