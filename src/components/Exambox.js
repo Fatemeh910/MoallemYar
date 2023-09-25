@@ -6,7 +6,13 @@ const Exambox = () => {
     <div className="flex flex-col ">
       <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
         <h3 className=" text-textcolor"> آخرین امتحانات</h3>
-        <h3 className="flex items-center text-textcolor"><img src="/assets/icon/leftArrow.svg" style={{width:15,marginRight:15, color:"#555555"}}/> مشاهده همه </h3>
+        <h3 className="flex items-center text-textcolor">
+          <img
+            src="/assets/icon/leftArrow.svg"
+            style={{ width: 15, marginRight: 15, color: "#555555" }}
+          />{" "}
+          مشاهده همه{" "}
+        </h3>
       </div>
       <div className="flex ">
         <div className="w-1/5 justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
