@@ -60,12 +60,6 @@ const Examarea = () => {
           date="1400/10/16"
           imageSrc="/assets/img/image1.png"
         />
-        <Exambox
-          title="عنوان امتحان 6"
-          time="13:30"
-          date="1400/10/16"
-          imageSrc="/assets/img/image1.png"
-        />
       </div>
     </div>
   );
