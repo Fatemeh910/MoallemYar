@@ -1,3 +1,4 @@
+import Exambox from "./Exambox";
 
 const Examarea = () => {
     return (
@@ -14,8 +15,12 @@ const Examarea = () => {
             </a>
           </h3>
         </div>
-        <div className="flex ">
-  
+        <div className="flex">
+          <Exambox />
+          <Exambox />
+          <Exambox />
+          <Exambox />
+          <Exambox />
         </div>
       </div>
     );
