@@ -1,11 +1,15 @@
 import Image from "next/image";
-import { Button, Popover, Space } from "antd";
+import Link from "next/link";
+import { Popover } from "antd";
+
+//popover menu
 const content = (
-  <div>
-    <p>Content</p>
-    <p>Content</p>
+  <div className="flex flex-col text-right">
+    <Link href="#">لینک شماره 1</Link>
+    <Link href="#">لینک شماره 2</Link>
   </div>
 );
+
 
 const Exambox = () => {
   return (
@@ -34,7 +38,7 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-            <Popover content={content} title="Title" trigger="click">
+              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -63,7 +67,7 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-            <Popover content={content} title="Title" trigger="click">
+              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -92,7 +96,7 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-            <Popover content={content} title="Title" trigger="click">
+              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -121,7 +125,7 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="text-timecolor">
-            <Popover content={content} title="Title" trigger="click">
+              <Popover content={content} title="عنوان" className="text-textcolor" trigger="click">
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
@@ -150,7 +154,7 @@ const Exambox = () => {
           <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
             <div className="text-textcolor">عنوان امتحان 1</div>
             <div className="">
-            <Popover content={content} title="Title" trigger="click">
+              <Popover content={content} title="عنوان" className="text-textcolor " trigger="click">
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
