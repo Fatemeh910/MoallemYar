@@ -6,6 +6,18 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'textcolor': '#555555',
+      'datecolor': '#B9B9B9',
+      'timecolor': '#B9B9B9',
+      'linkhoercolor': '#40189E',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

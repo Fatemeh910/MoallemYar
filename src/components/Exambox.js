@@ -5,7 +5,7 @@ const Exambox = () => {
   return (
     <div className="flex flex-col ">
       <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
-        <h3 className=""> آخرین امتحانات</h3>
+        <h3 className="text-purple"> آخرین امتحانات</h3>
         <h3 className="flex items-center"><img src="/assets/icon/leftArrow.svg" style={{width:15,marginRight:15}}/> مشاهده همه </h3>
       </div>
       <div className="flex ">
