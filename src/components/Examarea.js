@@ -1,8 +1,10 @@
+"use client"
 import Exambox from "./Exambox";
 import style from "@/components/exam.module.css";
 import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
+
 
 const Examarea = () => {
   // slick slider
@@ -32,6 +34,7 @@ const Examarea = () => {
         </h3>
       </div>
       <div className="flex ">
+
       </div>
     </div>
   );
