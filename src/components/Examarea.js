@@ -3,6 +3,8 @@ import style from "@/components/exam.module.css";
 import Link from "next/link";
 
 const Examarea = () => {
+  // slick slider
+
   return (
     <div className="flex flex-col ">
       <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
@@ -20,7 +22,7 @@ const Examarea = () => {
           </Link>
         </h3>
       </div>
-      <div className="flex flex-row-reverse">
+      <div className="flex flex-row-reverse ">
         <Exambox
           title="عنوان امتحان 1"
           time="12:00"
@@ -47,6 +49,36 @@ const Examarea = () => {
         />
         <Exambox
           title="عنوان امتحان 5"
+          time="13:30"
+          date="1400/10/16"
+          imageSrc="/assets/img/image1.png"
+        />
+        <Exambox
+          title="عنوان امتحان 6"
+          time="13:30"
+          date="1400/10/16"
+          imageSrc="/assets/img/image1.png"
+        />
+        <Exambox
+          title="عنوان امتحان 7"
+          time="13:30"
+          date="1400/10/16"
+          imageSrc="/assets/img/image1.png"
+        />
+        <Exambox
+          title="عنوان امتحان 8"
+          time="13:30"
+          date="1400/10/16"
+          imageSrc="/assets/img/image1.png"
+        />
+        <Exambox
+          title="عنوان امتحان 9"
+          time="13:30"
+          date="1400/10/16"
+          imageSrc="/assets/img/image1.png"
+        />
+        <Exambox
+          title="عنوان امتحان 10"
           time="13:30"
           date="1400/10/16"
           imageSrc="/assets/img/image1.png"
