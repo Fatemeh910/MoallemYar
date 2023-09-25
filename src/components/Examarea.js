@@ -1,5 +1,6 @@
 import Exambox from "./Exambox";
 import style from "@/components/exam.module.css";
+import Link from "next/link";
 
 const Examarea = () => {
   return (
@@ -7,16 +8,16 @@ const Examarea = () => {
       <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
         <h3 className=" text-textcolor p-2"> آخرین امتحانات</h3>
         <h3 className="flex items-center text-textcolor">
-          <a
-            href="#"
-            className="flex p-2 rounded-xl hover:bg-linkbghover bg-opacity-1 text-linkhovercolor"
+          <Link
+            href={"0000"}
+            className="flex p-2 hover:bg-opacity-30 rounded-xl hover:bg-linkbghover "
           >
             <img
               src="/assets/icon/leftArrow.svg"
               style={{ width: 15, marginRight: 15, color: "#555555" }}
             />
             مشاهده همه
-          </a>
+          </Link>
         </h3>
       </div>
       <div className="flex flex-row-reverse">
