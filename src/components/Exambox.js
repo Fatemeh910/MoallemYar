@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Popover } from "antd";
+import style from "@/components/exam.module.css"
 
 //popover menu
 const content = (
@@ -9,6 +10,7 @@ const content = (
     <a href="#" className="text-textcolor text-textcolor hover:text-linkhovercolor">لینک شماره 2</a>
   </div>
 );
+
 
 const Exambox = () => {
   return (
@@ -42,9 +44,9 @@ const Exambox = () => {
               <Popover
                 content={content}
                 title="عنوان"
-                style={{textAlign:"Left"}}
                 className="text-textcolor"
                 trigger="click"
+                
               >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
