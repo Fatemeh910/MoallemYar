@@ -1,76 +1,118 @@
-import style from "@/components/exambox.module.css"
+import style from "@/components/exambox.module.css";
+import Image from "next/image";
+import examimg from "../../public/assets/img/image1.png";
 
-const Exambox = ()=>{
-    return (
-        <div className="flex flex-col ">
-            <div className="flex justify-between mx-1 mb-2">
-                <h3>آخرین امتحانات</h3>
-                <h3> مشاهده همه </h3>
-            </div>
-            <div className="flex ">
-            <div className="w-1/5 bg-red-200 justify-around mx-1 rounded-md flex flex-col">
-                <div className="">img</div>
-                <div className="flex justify-between mx-1">
-                    <div className="">title</div>
-                    <div className="">icon</div>
-                </div>
-                <div className="flex justify-between mx-1">
-                    <div className="">date</div>
-                    <div className="">time</div>
-                    <div className="">icon</div>
-                </div>
-            </div>
-            <div className="w-1/5 bg-red-200 justify-around mx-1 rounded-md flex flex-col">
-                <div className="">img</div>
-                <div className="flex justify-between mx-1">
-                    <div className="">title</div>
-                    <div className="">icon</div>
-                </div>
-                <div className="flex justify-between mx-1">
-                    <div className="">date</div>
-                    <div className="">time</div>
-                    <div className="">icon</div>
-                </div>
-            </div>
-            <div className="w-1/5 bg-red-200 justify-around mx-1 rounded-md flex flex-col">
-                <div className="">img</div>
-                <div className="flex justify-between mx-1">
-                    <div className="">title</div>
-                    <div className="">icon</div>
-                </div>
-                <div className="flex justify-between mx-1">
-                    <div className="">date</div>
-                    <div className="">time</div>
-                    <div className="">icon</div>
-                </div>
-            </div>
-            <div className="w-1/5 bg-red-200 justify-around mx-1 rounded-md flex flex-col">
-                <div className="">img</div>
-                <div className="flex justify-between mx-1">
-                    <div className="">title</div>
-                    <div className="">icon</div>
-                </div>
-                <div className="flex justify-between mx-1">
-                    <div className="">date</div>
-                    <div className="">time</div>
-                    <div className="">icon</div>
-                </div>
-            </div>
-            <div className="w-1/5 bg-red-200 justify-around mx-1 rounded-md flex flex-col">
-                <div className="">img</div>
-                <div className="flex justify-between mx-1">
-                    <div className="">title</div>
-                    <div className="">icon</div>
-                </div>
-                <div className="flex justify-between mx-1">
-                    <div className="">date</div>
-                    <div className="">time</div>
-                    <div className="">icon</div>
-                </div>
-            </div>
-            </div>
+const Exambox = () => {
+  return (
+    <div className="flex flex-col ">
+      <div className="flex justify-between mx-2 mb-2">
+        <h3>آخرین امتحانات</h3>
+        <h3> مشاهده همه </h3>
+      </div>
+      <div className="flex ">
+        <div className="w-1/5 justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
+          <div className="">
+            <Image
+              src="/assets/img/image1.png"
+              width={400}
+              height={500}
+              style={{borderTopLeftRadius:16, borderTopRightRadius:16}}
+              alt="exam image"
+            />
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
+            <div className="">عنوان امتحان 1</div>
+            <div className=""><img src="/assets/icon/verticalmenupoints.svg" alt="verticalmenu" /></div>
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse mb-3 mt-1 items-center">
+            <div className="">1400/10/23</div>
+            <div className="">16:00</div>
+            <div className=""><img src="/assets/icon/heart.svg" /></div>
+          </div>
         </div>
-    )
-}
+        <div className="w-1/5 justify-between mx-2 rounded-2xl flex flex-col shadow-lg">
+          <div className="">
+            <Image
+              src="/assets/img/image1.png"
+              width={400}
+              height={500}
+              style={{borderTopLeftRadius:16, borderTopRightRadius:16}}
+              alt="exam image"
+            />
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
+            <div className="">عنوان امتحان 1</div>
+            <div className=""><img src="/assets/icon/verticalmenupoints.svg" alt="verticalmenu" /></div>
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse mb-3 mt-1 items-center">
+            <div className="">1400/10/23</div>
+            <div className="">16:00</div>
+            <div className=""><img src="/assets/icon/heart.svg" /></div>
+          </div>
+        </div>
+        <div className="w-1/5 justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
+          <div className="">
+            <Image
+              src="/assets/img/image1.png"
+              width={400}
+              height={500}
+              style={{borderTopLeftRadius:16, borderTopRightRadius:16}}
+              alt="exam image"
+            />
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
+            <div className="">عنوان امتحان 1</div>
+            <div className=""><img src="/assets/icon/verticalmenupoints.svg" alt="verticalmenu" /></div>
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse mb-3 mt-1 items-center">
+            <div className="">1400/10/23</div>
+            <div className="">16:00</div>
+            <div className=""><img src="/assets/icon/heart.svg" /></div>
+          </div>
+        </div>
+        <div className="w-1/5 justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
+          <div className="">
+            <Image
+              src="/assets/img/image1.png"
+              width={400}
+              height={500}
+              style={{borderTopLeftRadius:16, borderTopRightRadius:16}}
+              alt="exam image"
+            />
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
+            <div className="">عنوان امتحان 1</div>
+            <div className=""><img src="/assets/icon/verticalmenupoints.svg" alt="verticalmenu" /></div>
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse mb-3 mt-1 items-center">
+            <div className="">1400/10/23</div>
+            <div className="">16:00</div>
+            <div className=""><img src="/assets/icon/heart.svg" /></div>
+          </div>
+        </div>
+        <div className="w-1/5 justify-betweem mx-2 rounded-2xl flex flex-col shadow-lg">
+          <div className="">
+            <Image
+              src="/assets/img/image1.png"
+              width={400}
+              height={500}
+              style={{borderTopLeftRadius:16, borderTopRightRadius:16}}
+              alt="exam image"
+            />
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
+            <div className="">عنوان امتحان 1</div>
+            <div className=""><img src="/assets/icon/verticalmenupoints.svg" alt="verticalmenu" /></div>
+          </div>
+          <div className="flex justify-between mx-2 flex-row-reverse mb-3 mt-1 items-center">
+            <div className="">1400/10/23</div>
+            <div className="">16:00</div>
+            <div className=""><img src="/assets/icon/heart.svg" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Exambox
+export default Exambox;
