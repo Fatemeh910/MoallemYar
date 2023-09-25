@@ -40,7 +40,7 @@ const Exambox = (Props) => {
               <Popover
                 content={content}
                 title="عنوان"
-                className="text-textcolor"
+                className="text-textcolor float-right"
                 trigger="click"
               >
                 <img

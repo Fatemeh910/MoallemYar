@@ -14,7 +14,7 @@ const Examarea = () => {
               src="/assets/icon/leftArrow.svg"
               style={{ width: 15, marginRight: 15, color: "#555555" }}
             />
-            مشاهده
+            مشاهده همه
           </a>
         </h3>
       </div>
