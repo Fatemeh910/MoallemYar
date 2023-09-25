@@ -1,6 +1,8 @@
 import Exambox from "./Exambox";
 import style from "@/components/exam.module.css";
 import Link from "next/link";
+import React from "react";
+import Slider from "react-slick";
 
 const Examarea = () => {
   // slick slider
@@ -29,37 +31,7 @@ const Examarea = () => {
           </Link>
         </h3>
       </div>
-      <div className="flex flex-row-reverse ">
-        <Exambox
-          title="عنوان امتحان 1"
-          time="12:00"
-          date="1400/10/23"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 2"
-          time="16:00"
-          date="1400/10/28"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 3"
-          time="09:00"
-          date="1400/10/19"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 4"
-          time="08:00"
-          date="1400/10/20"
-          imageSrc="/assets/img/image1.png"
-        />
-        <Exambox
-          title="عنوان امتحان 5"
-          time="13:30"
-          date="1400/10/16"
-          imageSrc="/assets/img/image1.png"
-        />
+      <div className="flex ">
       </div>
     </div>
   );
