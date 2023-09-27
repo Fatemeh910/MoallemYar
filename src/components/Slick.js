@@ -46,7 +46,7 @@ export default class Slick extends Component {
     };
     return (
       <div className="block ">
-        <Slider {...settings} >
+        <Slider {...settings} className="cursor-pointer">
           <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"

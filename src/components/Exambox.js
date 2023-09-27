@@ -8,18 +8,18 @@ import { useState } from "react";
 //popover menu
 const content = (
   <div className="flex flex-col text-right">
-    <a
+    <Link
       href="#"
-      className="text-textcolor text-textcolor hover:text-linkhovercolor"
+      className="text-textColor text-textColor hover:text-linkHoverColor"
     >
       لینک شماره 1
-    </a>
-    <a
+    </Link>
+    <Link
       href="#"
-      className="text-textcolor text-textcolor hover:text-linkhovercolor"
+      className="text-textColor text-textColor hover:text-linkHoverColor"
     >
       لینک شماره 2
-    </a>
+    </Link>
   </div>
 );
 
@@ -46,7 +46,7 @@ const Exambox = (Props) => {
             />
           </div>
           <div className="flex justify-between mx-2 flex-row-reverse my-1 items-center">
-            <div className="text-textcolor">{Props.title}</div>
+            <div className="text-textColor">{Props.title}</div>
             <div className="">
               <Popover
                 content={content}
@@ -55,15 +55,14 @@ const Exambox = (Props) => {
               >
                 <img
                   src="/assets/icon/verticalmenupoints.svg"
-                  style={{ color: "red" }}
                   alt="verticalmenu"
                 />
               </Popover>
             </div>
           </div>
           <div className="flex justify-between mx-2 flex-row-reverse mb-2 mt-1 items-center">
-            <div className="text-datecolor">{Props.date}</div>
-            <div className="text-timecolor">{Props.time}</div>
+            <div className="text-dateColor">{Props.date}</div>
+            <div className="text-timeColor">{Props.time}</div>
             <div className="">
               {!like ? (
                 <img
