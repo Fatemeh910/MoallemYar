@@ -14,7 +14,7 @@ export default class Slick extends Component {
       infinite: false,
       speed: 500,
       slidesToShow: 5,
-      slidesToScroll: 4,
+      slidesToScroll: 2,
       initialSlide: 0,
       rtl: true,
       responsive: [
@@ -46,8 +46,8 @@ export default class Slick extends Component {
     };
     return (
       <div className="block ">
-        <Slider {...settings}>
-          <div>
+        <Slider {...settings} >
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 1"
@@ -55,7 +55,7 @@ export default class Slick extends Component {
               date="1400/10/23"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 2"
@@ -63,7 +63,7 @@ export default class Slick extends Component {
               date="1400/10/20"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 3"
@@ -71,7 +71,7 @@ export default class Slick extends Component {
               date="1400/10/28"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 4"
@@ -79,7 +79,7 @@ export default class Slick extends Component {
               date="1400/10/24"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 5"
@@ -87,7 +87,7 @@ export default class Slick extends Component {
               date="1400/10/21"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 6"
@@ -95,7 +95,7 @@ export default class Slick extends Component {
               date="1400/10/25"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 7"
@@ -103,7 +103,7 @@ export default class Slick extends Component {
               date="1400/10/18"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 8"
@@ -111,7 +111,7 @@ export default class Slick extends Component {
               date="1400/10/19"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 9"
@@ -119,7 +119,7 @@ export default class Slick extends Component {
               date="1400/10/19"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 10"
@@ -127,7 +127,7 @@ export default class Slick extends Component {
               date="1400/10/23"
             />
           </div>
-          <div>
+          <div className="mb-1">
             <Exambox
               imageSrc="/assets/img/image1.png"
               title="عنوان امتحان 11"
