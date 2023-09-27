@@ -1,16 +1,9 @@
-"use client"
-import Exambox from "./Exambox";
 import style from "@/components/exam.module.css";
 import Link from "next/link";
 import React from "react";
-
-
-
+import SlickSlider from "./SlickSlider";
 
 const Examarea = () => {
-
-
-
   return (
     <div className="flex flex-col ">
       <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
@@ -29,11 +22,7 @@ const Examarea = () => {
         </h3>
       </div>
       <div className="flex ">
-       <Exambox imageSrc="/assets/img/image1.png" title="عنوان امتحان 5" time="10:20" date="1400/10/23" />
-       <Exambox imageSrc="/assets/img/image1.png" title="عنوان امتحان 4" time="10:20" date="1400/10/23" />
-       <Exambox imageSrc="/assets/img/image1.png" title="عنوان امتحان 3" time="10:20" date="1400/10/23" />
-       <Exambox imageSrc="/assets/img/image1.png" title="عنوان امتحان 2" time="10:20" date="1400/10/23" />
-       <Exambox imageSrc="/assets/img/image1.png" title="عنوان امتحان 1" time="10:20" date="1400/10/23" />
+        <SlickSlider />
       </div>
     </div>
   );

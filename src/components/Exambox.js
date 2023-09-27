@@ -66,9 +66,17 @@ const Exambox = (Props) => {
             <div className="text-timecolor">{Props.time}</div>
             <div className="">
               {!like ? (
-                <img src="/assets/icon/heart.svg" onClick={change} className="cursor-pointer"/>
+                <img
+                  src="/assets/icon/heart.svg"
+                  onClick={change}
+                  className="cursor-pointer"
+                />
               ) : (
-                <img src="/assets/icon/redheart.svg" onClick={change} className="cursor-pointer"/>
+                <img
+                  src="/assets/icon/redheart.svg"
+                  onClick={change}
+                  className="cursor-pointer"
+                />
               )}
             </div>
           </div>
