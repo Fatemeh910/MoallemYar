@@ -1,14 +1,15 @@
 import Link from "next/link";
+import style from "@/components/previewexam.module.css"
 
 const PreviewExam = () => {
   return (
-    <div className="flex flex-col w-5/12 shadow-md rounded-2xl">
-      <h3 className="text-right mr-4 bg-"> پیش نمایش</h3>
-      <div className="">
+    <div className="flex flex-col w-5/12  rounded-2xl">
+      <h3 className="text-right mr-4 text-textColor"> پیش نمایش</h3>
+      <div className="shadow-md">
         <div className=""></div>
-        <Link href="#">اتمام سوالات </Link>
-        <Link href="#"> ثبت و ادامه </Link>
-        <Link href="#"> سوالات قبلی </Link>
+        <Link href="#" className={style.preQuestion} >اتمام سوالات </Link>
+        <Link href="#" className={style.continue} > ثبت و ادامه </Link>
+        <Link href="#" className={style.finishQuestion} > سوالات قبلی </Link>
       </div>
     </div>
   );
