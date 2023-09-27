@@ -2,11 +2,13 @@
 import Exambox from "./Exambox";
 import style from "@/components/exam.module.css";
 import Link from "next/link";
-import React from "react";
+import React, { Component } from "react";
+import Slider from "react-slick";
 
 
 
 const Examarea = () => {
+
 
 
   return (
