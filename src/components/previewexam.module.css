@@ -1,9 +1,33 @@
-.preQuestion{
-
+.preQuestion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555555;
+  opacity: 0.6;
+  padding: 12px;
+  padding-right: 2px;
+  margin: 10px;
+  border-radius: 30px;
+  color: white;
 }
-.continue{
-
+.continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #40189e;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 30px;
+  color: white;
 }
-.finishQuestion{
-    
+.finishQuestion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f59e0b;
+  padding: 12px;
+  padding-right: 2px;
+  margin: 10px;
+  border-radius: 30px;
+  color: white;
 }
