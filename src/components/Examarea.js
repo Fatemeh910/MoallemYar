@@ -2,8 +2,8 @@
 import Exambox from "./Exambox";
 import style from "@/components/exam.module.css";
 import Link from "next/link";
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React from "react";
+
 
 
 
