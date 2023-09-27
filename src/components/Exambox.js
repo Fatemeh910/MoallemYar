@@ -33,19 +33,19 @@ const Exambox = (Props) => {
     }
   };
   return (
-    <div className="flex flex-col w-1/5">
+    <div className="flex flex-col ">
       <div className="flex ">
         <div className=" justify-betweem mx-2 rounded-2xl flex flex-col shadow-md">
           <div className="">
             <Image
               src={Props.imageSrc}
-              width={400}
-              height={500}
+              width={350}
+              height={450}
               style={{ borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
               alt="exam image"
             />
           </div>
-          <div className="flex justify-between mx-2 flex-row-reverse my-2 items-center">
+          <div className="flex justify-between mx-2 flex-row-reverse my-1 items-center">
             <div className="text-textcolor">{Props.title}</div>
             <div className="">
               <Popover
@@ -61,7 +61,7 @@ const Exambox = (Props) => {
               </Popover>
             </div>
           </div>
-          <div className="flex justify-between mx-2 flex-row-reverse mb-3 mt-1 items-center">
+          <div className="flex justify-between mx-2 flex-row-reverse mb-2 mt-1 items-center">
             <div className="text-datecolor">{Props.date}</div>
             <div className="text-timecolor">{Props.time}</div>
             <div className="">

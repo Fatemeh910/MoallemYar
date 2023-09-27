@@ -1,13 +1,13 @@
 import style from "@/components/exam.module.css";
 import Link from "next/link";
 import React from "react";
-import SlickSlider from "./SlickSlider";
+import SlickSlider from "./Slick";
+import Exambox from "./Exambox";
 
 const Examarea = () => {
   return (
     <div className="flex flex-col ">
-      <div className="flex justify-between mx-2 mb-2 flex-row-reverse">
-        <h3 className=" text-textcolor p-2"> آخرین امتحانات</h3>
+      <div className="flex justify-between mx-2 mb-2 ">
         <h3 className="flex items-center text-textcolor">
           <Link
             href={"0000"}
@@ -20,10 +20,9 @@ const Examarea = () => {
             مشاهده همه
           </Link>
         </h3>
+        <h3 className=" text-textcolor p-2"> آخرین امتحانات</h3>
       </div>
-      <div className="flex ">
-        <SlickSlider />
-      </div>
+      <SlickSlider />
     </div>
   );
 };
