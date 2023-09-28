@@ -1,33 +1,48 @@
 .preQuestion {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  justify-items: center;
   background-color: #555555;
   opacity: 0.6;
-  padding: 12px;
-  padding-right: 2px;
+  padding: 8px 35px;
+  padding-right: 4px;
   margin: 10px;
   border-radius: 30px;
   color: white;
 }
 .continue {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   background-color: #40189e;
-  padding: 12px;
+  padding: 8px 35px;
   margin: 10px;
   border-radius: 30px;
   color: white;
 }
 .finishQuestion {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   background-color: #f59e0b;
-  padding: 12px;
+  padding: 8px 35px;
   padding-right: 2px;
   margin: 10px;
   border-radius: 30px;
   color: white;
+}
+.boxPreview {
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  height: 530px;
+}
+.exampage {
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  height: 420px;
+  overflow: hidden;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
 }
