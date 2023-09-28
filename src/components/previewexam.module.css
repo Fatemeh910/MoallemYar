@@ -30,19 +30,24 @@
   color: white;
 }
 .boxPreview {
-  border-radius: 20px;
+  border-radius: 40px;
   margin: 10px;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   height: 530px;
 }
-.exampage {
-  border-radius: 20px;
+.examPage {
+  border-radius: 40px;
   margin: 10px;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   height: 420px;
   overflow: hidden;
+  position: relative;
 }
 .links{
   display: flex;
   justify-content: space-between;
+}
+.previewSkeleton{
+  height: 100% !important;
+  width: 100% !important;
 }
