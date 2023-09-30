@@ -16,7 +16,7 @@ const PreviewExam = () => {
             shape="square"
           />
         </div>
-        <div className={style.links}>
+        <div className={style.links }>
           <Link href="#" className={style.finishQuestion}>
             اتمام سوالات
             <img
