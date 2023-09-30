@@ -1,6 +1,7 @@
 import Examarea from "@/components/Examarea";
 import PreviewExam from "@/components/PreviewExam";
 import Footer from "@/components/Footer";
+import HowMoallemYar from "@/components/howMoallemYar";
 
 const UserPanelDashboard = () => {
   return (
@@ -8,6 +9,7 @@ const UserPanelDashboard = () => {
       <Examarea />
       <PreviewExam />
       <Footer />
+      <HowMoallemYar />
     </div>
   );
 };
