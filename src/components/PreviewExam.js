@@ -6,7 +6,7 @@ import { Skeleton } from "antd";
 
 const PreviewExam = () => {
   return (
-    <div className="flex flex-col w-5/12 h-9/12 mt-4  rounded-2xl">
+    <div className="flex flex-col w-5/12 h-9/12   rounded-2xl">
       <h3 className="text-right mr-9 text-textColor"> پیش نمایش</h3>
       <div className={style.boxPreview}>
         <div className={style.examPage}>
