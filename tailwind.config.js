@@ -14,8 +14,8 @@ module.exports = {
       'timeColor': '#B9B9B9',
       'linkHoerColor': '#40189E',
       'linkBgHover': '#2596be',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
+      'bgColorFooter': '#202938',
+      'footerTextColor': '#ffffff',
       'bermuda': '#78dcca',
     },
     extend: {
