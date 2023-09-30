@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex w-11/12 bg-bgColorFooter text-footerTextColor justify-center itmes-center">
-      <div className="flex flex-col w-1/3 mr-5 ">
-        <Link href="#" className="mt-2">
+    <div className="flex w-11/12 bg-bgColorFooter text-footerTextColor justify-center itmes-center rounded-tl-2xl p-8 text-xs">
+      <div className="flex flex-col w-1/3 ">
+        <Link href="#" className="">
           سوالات متداول{" "}
         </Link>
         <Link href="#" className="mt-2">
@@ -18,17 +18,57 @@ const Footer = () => {
           لوگو و علائم
         </Link>
       </div>
-      <div className="flex flex-col w-1/3 ">
-
-        <div className="">text</div>
+      <div className="flex flex-col w-1/3 justify-center items-center">
+        <img src="/assets/logo/logo.svg" style={{ width: 150 }} />
+        <div className="flex mt-8">
+          طراحی شده با{" "}
+          <img
+            src="/assets/icon/whiteHeart.svg"
+            alt="whiteHeart"
+            className="mx-1"
+          />{" "}
+          در آژانس دیجیتال مارکتینگ آوانگار
+        </div>
       </div>
-      <div className="flex flex-col w-1/3 text-right">
-        <div className="">text</div>
-        <div className="flex flex-col">
-          <Link href="#">1</Link>
-          <Link href="#">2</Link>
-          <Link href="#">3</Link>
-          <Link href="#">4</Link>
+      <div className="flex flex-col w-1/3 text-right justify-center items-center">
+        <div className="">ما را در شبکه های اجتماعی دنبال کنید.</div>
+        <div className="flex flex-col mt-2">
+          <Link href="#" className=" flex ">
+            MoallemYar@
+            <img
+              src="/assets/icon/xIcon.svg"
+              style={{ width: 15 }}
+              alt=""
+              className="mr-1"
+            />
+          </Link>
+          <Link href="#" className="mt-2 flex ">
+            MoallemYar@
+            <img
+              src="/assets/icon/linkedinIcon.svg"
+              style={{ width: 15 }}
+              alt=""
+              className="mr-1"
+            />
+          </Link>
+          <Link href="#" className="mt-2 flex ">
+            MoallemYar@
+            <img
+              src="/assets/icon/instagramIcon.svg"
+              style={{ width: 15 }}
+              alt=""
+              className="mr-1"
+            />
+          </Link>
+          <Link href="#" className="mt-2 flex ">
+            MoallemYar@
+            <img
+              src="/assets/icon/githubIcon.svg"
+              style={{ width: 15 }}
+              alt=""
+              className="mr-1"
+            />
+          </Link>
         </div>
       </div>
     </div>

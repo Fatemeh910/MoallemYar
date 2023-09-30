@@ -1,5 +1,5 @@
 import Examarea from "@/components/Examarea";
-import PreviewExam from "@/components/PreviewExam"
+import PreviewExam from "@/components/PreviewExam";
 import Footer from "@/components/Footer";
 
 const UserPanelDashboard = () => {
