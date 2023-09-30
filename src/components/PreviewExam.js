@@ -16,26 +16,27 @@ const PreviewExam = () => {
             shape="square"
           />
         </div>
-        <div className={style.links }>
-          <Link href="#" className={style.finishQuestion}>
-            اتمام سوالات
-            <img
-              src="/assets/icon/tickMark.svg"
-              alt="tickmark"
-              className="mr-4"
-            />{" "}
-          </Link>
-          <Link href="#" className={style.continue}>
-            <img src="/assets/icon/leftArrowWhite.svg" alt="leftArrow" /> ثبت و
-            ادامه
-          </Link>
+        <div className={style.links}>
           <Link href="#" className={style.preQuestion}>
-            سوال قبلی{" "}
             <img
               src="/assets/icon/rightArrowWhite.svg"
               alt="rightArrow"
               className="mr-4"
-            />{" "}
+            />
+            سوال قبلی
+          </Link>
+
+          <Link href="#" className={style.continue}>
+            ثبت و ادامه
+            <img src="/assets/icon/leftArrowWhite.svg" alt="leftArrow" />
+          </Link>
+          <Link href="#" className={style.finishQuestion}>
+            <img
+              src="/assets/icon/tickMark.svg"
+              alt="tickmark"
+              className="mr-4"
+            />
+            اتمام سوالات
           </Link>
         </div>
       </div>
