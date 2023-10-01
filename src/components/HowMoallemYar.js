@@ -1,3 +1,4 @@
+import style from "@/components/HowMoallemYar.module.css"
 
 const HowMoallemYar = () => {
   return (
