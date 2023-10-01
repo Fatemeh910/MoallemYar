@@ -6,9 +6,9 @@ import HowMoallemYar from "@/components/HowMoallemYar";
 const UserPanelDashboard = () => {
   return (
     <div className="felx">
-      <Examarea />
-      <PreviewExam />
-      <Footer />
+      {/* <Examarea /> */}
+      {/* <PreviewExam />
+      <Footer /> */}
       <HowMoallemYar />
     </div>
   );
