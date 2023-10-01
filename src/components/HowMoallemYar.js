@@ -15,8 +15,20 @@ const HowMoallemYar = () => {
           </h3>
         </div>
       </div>
-      <div className="">2</div>
-      <div className="">3</div>
+      <div className="flex justify-around mt-12">
+        <div className="flex flex-col">
+          <div className="">icon</div>
+          <div className="">text</div>
+        </div>
+        <div className="flex flex-col">
+          <div className="">icon</div>
+          <div className="">text</div>
+        </div>
+        <div className="flex flex-col">
+          <div className="">icon</div>
+          <div className="">text</div>
+        </div>
+      </div>
     </div>
   );
 };
