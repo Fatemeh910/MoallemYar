@@ -29,8 +29,8 @@ const HowMoallemYar = () => {
               style={{ width: 55 }}
             />
           </div>
-          <h1 className="mb-2 mt-4">سرعت بالای طراحی </h1>
-          <h3>
+          <h1 className="mb-2 mt-4 text-2xl font-bold text-textColor">سرعت بالای طراحی </h1>
+          <h3 className="text-textColor text-md">
             بطور متوسط در هر 10 دقیقه میتوایند یک امتحان کامل را
             <br /> طراحی کنید و برگه چاپی آن را دریافت کنید
           </h3>
@@ -44,10 +44,10 @@ const HowMoallemYar = () => {
               style={{ width: 55 }}
             />
           </div>
-          <h1 className="mb-2 mt-4">هسته‌ی قوی پنل کاربری</h1>
-          <h3 className="">
+          <h1 className="mb-2 mt-4 text-2xl font-bold text-textColor">هسته‌ی قوی پنل کاربری</h1>
+          <h3 className="text-textColor text-md">
             مهندسین ما در پشت صحنه تلاش می کنندتابا بهره گیری <br />
-            از آخرین فناوری های روز دنیا بهترین هارابرای شما فراهم کنند.
+            از آخرین فناوری های روز دنیا بهترین هارابرای شما فراهم<br/> کنند.
           </h3>
         </div>
         <div className={style.box}>
@@ -58,8 +58,8 @@ const HowMoallemYar = () => {
               style={{ width: 55 }}
             />
           </div>
-          <h1 className="mb-2 mt-4">رایگان!</h1>
-          <h3>
+          <h1 className="mb-2 mt-4 text-2xl font-bold text-textColor">رایگان!</h1>
+          <h3 className="text-textColor text-md">
              اینجا با خیالت راحت امتحان های خودرا طراحی کنید. ما تا 10  
             <br />
             امتحان از شما هزینه‌ای دریافت نمی کنیم.
