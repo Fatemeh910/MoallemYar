@@ -17,15 +17,21 @@ const HowMoallemYar = () => {
       </div>
       <div className="flex justify-around mt-12">
         <div className="flex flex-col">
-          <div className="">icon</div>
+          <div className="">
+            <img src="/assets/icon/settingIcon.svg" alt="settingIcon" />
+          </div>
           <div className="">text</div>
         </div>
         <div className="flex flex-col">
-          <div className="">icon</div>
+          <div className="">
+            <img src="/assets/icon/settingIcon.svg" alt="settingIcon" />
+          </div>
           <div className="">text</div>
         </div>
         <div className="flex flex-col">
-          <div className="">icon</div>
+          <div className="">
+            <img src="/assets/icon/coinIcon.svg" alt="coinIcon" />
+          </div>
           <div className="">text</div>
         </div>
       </div>
