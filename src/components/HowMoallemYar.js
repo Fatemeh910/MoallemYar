@@ -1,4 +1,4 @@
-import style from "@/components/HowMoallemYar.module.css"
+import style from "@/components/HowMoallemYar.module.css";
 
 const HowMoallemYar = () => {
   return (
@@ -20,39 +20,45 @@ const HowMoallemYar = () => {
           </h3>
         </div>
       </div>
-      <div className="flex justify-around mt-12">
-        <div className="flex flex-col text-center items-center">
-          <img
-            src="/assets/icon/settingIcon.svg"
-            alt="settingIcon"
-            style={{ width: 55 }}
-          />
-          <h1 className="mb-2">سرعت بالای طراحی </h1>
+      <div className="flex justify-around mt-28">
+        <div className={style.box}>
+          <div className={style.iconBox}>
+            <img
+              src="/assets/icon/settingIcon.svg"
+              alt="settingIcon"
+              style={{ width: 55 }}
+            />
+          </div>
+          <h1 className="mb-2 mt-4">سرعت بالای طراحی </h1>
           <h3>
             بطور متوسط در هر 10 دقیقه میتوایند یک امتحان کامل را
             <br /> طراحی کنید و برگه چاپی آن را دریافت کنید
           </h3>
         </div>
 
-        <div className="flex flex-col text-center items-center">
-          <img
-            src="/assets/icon/settingIcon.svg"
-            alt="settingIcon"
-            style={{ width: 55 }}
-          />
-          <h1 className="mb-2">هسته‌ی قوی پنل کاربری</h1>
-          <h3>
+        <div className={style.box}>
+          <div className={style.iconBox}>
+            <img
+              src="/assets/icon/settingIcon.svg"
+              alt="settingIcon"
+              style={{ width: 55 }}
+            />
+          </div>
+          <h1 className="mb-2 mt-4">هسته‌ی قوی پنل کاربری</h1>
+          <h3 className="">
             مهندسین ما در پشت صحنه تلاش می کنندتابا بهره گیری <br />
             از آخرین فناوری های روز دنیا بهترین هارابرای شما فراهم کنند.
           </h3>
         </div>
-        <div className="flex flex-col text-center items-center">
-          <img
-            src="/assets/icon/coinIcon.svg"
-            alt="coinIcon"
-            style={{ width: 55 }}
-          />
-          <h1 className="mb-2">رایگان!</h1>
+        <div className={style.box}>
+          <div className={style.iconBox}>
+            <img
+              src="/assets/icon/coinIcon.svg"
+              alt="coinIcon"
+              style={{ width: 55 }}
+            />
+          </div>
+          <h1 className="mb-2 mt-4">رایگان!</h1>
           <h3>
             اینجا با خیالت راحت امتحان های خودرا طراحی کنید.ماتا1,
             <br />
