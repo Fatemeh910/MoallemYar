@@ -27,7 +27,7 @@ const Footer = () => {
             alt="whiteHeart"
             className="mx-1"
           />{" "}
-          در آژانس دیجیتال مارکتینگ آوانگار
+          در آژانس دیجیتال مارکتینگ آوانگارد
         </div>
       </div>
       <div className="flex flex-col w-1/3 text-right justify-center items-center">
