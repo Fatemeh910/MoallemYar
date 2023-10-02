@@ -2,7 +2,7 @@ import Examarea from "@/components/Examarea";
 import PreviewExam from "@/components/PreviewExam";
 import Footer from "@/components/Footer";
 import HowMoallemYar from "@/components/HowMoallemYar";
-import MainPage from "@/components/MainPage";
+// import MainPage from "@/components/MainPage";
 
 const UserPanelDashboard = () => {
   return (
