@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from "@/components/Mainpage.module.css"
+
 
 const MainPage = () => {
   return (
@@ -10,7 +10,7 @@ const MainPage = () => {
           طراحی برگه‌امتحانی کنید!
         </h3>
       </div>
-      <div className={style.image}>
+      <div className="">
       <Image src="/assets/img/wallpaper.jpg" width={900} height={300}  alt="background image" style={{borderRadius:15}}/>
       </div>
     </div>

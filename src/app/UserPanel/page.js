@@ -9,7 +9,7 @@ const UserPanelDashboard = () => {
     <div className="felx">
       {/* <Examarea /> */}
       {/* <PreviewExam /> */}
-      {/* <HowMoallemYar /> */}
+      <HowMoallemYar />
       <MainPage />
       {/* <Footer /> */}
     </div>
