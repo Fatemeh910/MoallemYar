@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("~vazirmatn/Vazirmatn-Variable-font-face.css");
+/* @import url("~vazirmatn/Vazirmatn-Variable-font-face.css"); */
 
 body {
   font-family: vazirmatn;
