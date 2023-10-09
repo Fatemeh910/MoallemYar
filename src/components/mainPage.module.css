@@ -1,4 +1,16 @@
 .Image{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: relative;
+}
+.txtBox{
+    box-shadow: 4px 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background-color: white;
+    transform: rotate(-6deg);
 }
