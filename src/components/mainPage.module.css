@@ -28,14 +28,26 @@
   width: 160px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-right: auto;
 }
-.leftArrowIcon{
+.leftArrowIcon {
   background-color: #f67113;
-  border-radius: 60px;
+  border-radius: 50%;
 }
-.pinIcon{
-    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
-    border-radius: 5px;
-    padding: 2px;
+.pinIcon {
+  box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  position: absolute;
+  left: 180px;
+  top: 26px;
+  transform: rotate(-6deg);
+  z-index: 200;
+  background-color: white;
 }
