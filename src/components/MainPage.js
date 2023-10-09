@@ -13,6 +13,7 @@ const MainPage = () => {
       <div className="">
       <Image src="/assets/img/wallpaper.jpg" width={900} height={300}  alt="background image" style={{borderRadius:15}}/>
       </div>
+     
     </div>
   );
 };
