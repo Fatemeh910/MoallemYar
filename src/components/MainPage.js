@@ -9,18 +9,12 @@ const MainPage = () => {
         <img src="/assets/icon/pinIcon.svg" style={{ width: 25 }} alt="" />
       </div>
 
-      <h3 className="text-textColor font-bold text-xl mb-8 mt-4">
+      <h3 className="text-textColor font-bold text-4xl mb-8 mt-4 ">
         دیگر نیاز نیست زمان خود را طرف <br />
         طراحی برگه‌امتحانی کنید!
       </h3>
       <div className="" dir="ltr">
-        <Image
-          src="/assets/img/wallpaper.jpg"
-          width={900}
-          height={300}
-          alt="background image"
-          className={style.Image}
-        />
+        <img src="/assets/img/wallPaper.jpg" alt="backGround Image" className={style.Image}/>
       </div>
       <div className={style.txtBox}>
         <h3 className="text-textColor mb-4 mt-4 text-sm  font-semibold ">
