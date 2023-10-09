@@ -7,11 +7,11 @@ import MainPage from "@/components/MainPage";
 const UserPanelDashboard = () => {
   return (
     <div className="felx">
-      {/* <Examarea /> */}
-      {/* <PreviewExam /> */}
-      {/* <HowMoallemYar /> */}
+      <Examarea />
+      <PreviewExam />
+      <HowMoallemYar />
       <MainPage />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
