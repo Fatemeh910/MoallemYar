@@ -1,16 +1,41 @@
-.Image{
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    position: relative;
+.Image {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
 }
-.txtBox{
-    box-shadow: 4px 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.2);
-    padding: 20px;
-    width: 300px;
-    border-radius: 15px;
-    position: absolute;
-    top: 40px;
-    left: 50px;
-    background-color: white;
-    transform: rotate(-6deg);
+.txtBox {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.2);
+  padding: 15px;
+  width: 300px;
+  border-radius: 20px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  background-color: white;
+  transform: rotate(-6deg);
+  /* justify-content: center;
+    align-items: center; */
+}
+.btn {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: small;
+  margin-top: 15px;
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+}
+.leftArrowIcon{
+  background-color: #f67113;
+  border-radius: 60px;
+}
+.pinIcon{
+    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+    border-radius: 5px;
+    padding: 2px;
 }
