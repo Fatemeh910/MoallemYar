@@ -15,8 +15,8 @@
   left: 50px;
   background-color: white;
   transform: rotate(-6deg);
-  /* justify-content: center;
-    align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 .btn {
   color: white;

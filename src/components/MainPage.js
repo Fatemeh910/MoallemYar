@@ -8,7 +8,7 @@ const MainPage = () => {
       <div className={style.pinIcon}>
         <img src="/assets/icon/pinIcon.svg" style={{ width: 25 }} alt="" />
       </div>
-      <div className="">
+      <div className="w-11/12">
         <h3 className="text-textColor font-bold text-xl mb-8 mt-4">
           دیگر نیاز نیست زمان خود را طرف <br />
           طراحی برگه‌امتحانی کنید!
