@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("~vazirmatn/Vazirmatn-Variable-font-face.css");
+@import url("~node_modules/vazirmatn/Vazirmatn-font-face.css");
 
 body {
   font-family: vazirmatn;
+  direction: rtl;
+}
+/* Rectangle 13 */
+
+.ant-skeleton {
+  width: 100% !important;
 }

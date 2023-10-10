@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.9.2",
     "autoprefixer": "10.4.16",
     "next": "13.5.2",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "tailwindcss": "3.3.3",
-    "vazirmatn": "^33.0.3"
+    "vazirmatn": "latest"
   }
 }

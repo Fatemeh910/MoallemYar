@@ -1,7 +1,13 @@
-const UserPanelDashboard = ()=>{
-    return (
-        <></>
-    )
-}
+import Examarea from "@/components/Examarea";
 
-export default UserPanelDashboard
+
+const UserPanelDashboard = () => {
+  return (
+    <div className="felx">
+      <Examarea />
+
+    </div>
+  );
+};
+
+export default UserPanelDashboard;
