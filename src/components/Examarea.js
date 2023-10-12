@@ -5,12 +5,12 @@ import SlickSlider from "./Slick";
 
 const Examarea = () => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col">
       <div className="flex justify-between mx-2 mb-2 ">
         <h3 className=" text-textColor p-2"> آخرین امتحانات</h3>
         <h3 className="flex items-center text-textColor">
           <Link
-            href={"0000"}
+            href=""
             className="flex p-2 hover:bg-opacity-30 rounded-xl hover:bg-linkBgHover "
           >
             مشاهده همه
