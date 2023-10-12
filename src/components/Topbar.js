@@ -3,7 +3,7 @@ import { Avatar, Space } from "antd";
 
 export default function Topbar() {
   return (
-    <div className="flex w-full bg-white rounded-full p-2  align-center justify-between">
+    <div className="flex w-full bg-white rounded-full mt-2 p-2  align-center justify-between">
       <div className="">
         <div className="flex">
           <img src="/assets/icon/homeOutline.svg" alt="homeIcon"  className="mr-10 ml-1"/>
