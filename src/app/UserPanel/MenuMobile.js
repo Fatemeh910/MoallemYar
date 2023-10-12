@@ -1,14 +1,6 @@
 'use client'
 import { useState } from "react"
 import Link from "next/link"
-import Image from "next/image"
-import Close from "../../../public/Close.svg"
-import HamburgerMenu from "../../../public/HamburgerMenu.svg"
-import HomeIcon from "../../../public/HomeIcon.svg"
-import Users from "../../../public/Users.svg"
-import Profile from "../../../public/Profile.svg"
-import Clendar from "../../../public/Clendar.svg"
-
 
 export default function MenuMobile() {
 
@@ -27,9 +19,9 @@ export default function MenuMobile() {
 
           <div className="box">
             {!isRotate ?
-              <Image src={HamburgerMenu} alt="منوی کاربری" />
+              <img src="/assets/icon/HamburgerMenu.svg" alt="منوی کاربری" />
               :
-              <Image src={Close} alt="خروج از منوی کاربری" />
+              <img src="/assets/icon/Close.svg" alt="خروج از منوی کاربری" />
             }
           </div>
           <span className="shadow-md rounded-full"></span>
@@ -38,24 +30,24 @@ export default function MenuMobile() {
           <ul>
             <li style={{ "--i": "0.1s" }}>
               <Link href="#" title="پیشخوان">
-              <Image src={HomeIcon} alt="پیشخوان" />
+              <img src="/assets/icon/HomeIcon.svg" alt="پیشخوان" />
 
             </Link>
             </li>
             <li style={{ "--i": "0.2s" }}>
               <Link href="#" title="امتحانات جدید">
-              <Image src={Clendar} alt="امتحانات جدید" />
+              <img src="/assets/icon/Clendar.svg" alt="امتحانات جدید" />
             </Link>
             </li>
             <li></li>
             <li style={{ "--i": "0.2s" }}>
               <Link href="#" title="لیست دانش آموزان">
-              <Image src={Users} alt="لیست دانش آموزان" />
+              <img src="/assets/icon/Users.svg" alt="لیست دانش آموزان" />
             </Link>
             </li>
             <li style={{ "--i": "0.1s" }}>
               <Link href="#" title="پروفایل کاربری">
-              <Image src={Profile} alt="پروفایل کاربری" />
+              <img src="/assets/icon/Profile.svg" alt="پروفایل کاربری" />
             </Link>
             </li>
           </ul>
