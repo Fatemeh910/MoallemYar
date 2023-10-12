@@ -5,7 +5,8 @@ import Topbar from "@/components/Topbar";
 const UserPanelDashboard = () => {
   return (
     <>
-    <Topbar />
+    <Topbar/>
+    Exam
     <Examarea/>
     Area
     </>
