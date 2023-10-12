@@ -3,9 +3,8 @@ import Examarea from "@/components/Examarea";
 
 const UserPanelDashboard = () => {
   return (
-    <div className="felx">
-      <Examarea />
-
+    <div className="flex bg-red-400">
+      محتوای children
     </div>
   );
 };
