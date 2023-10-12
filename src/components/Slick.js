@@ -15,9 +15,17 @@ export default class Slick extends Component {
       speed: 500,
       slidesToShow: 5,
       slidesToScroll: 2,
-      initialSlide: 0,
       rtl: true,
       responsive: [
+        {
+          breakpoint: 1366,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
         {
           breakpoint: 1024,
           settings: {
@@ -30,16 +38,15 @@ export default class Slick extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2,
+            slidesToShow: 3,
+            slidesToScroll: 3,
           },
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToShow: 2,
+            slidesToScroll: 2,
           },
         },
       ],
