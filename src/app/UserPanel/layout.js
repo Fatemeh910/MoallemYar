@@ -1,3 +1,4 @@
+import Sidebar from './Sidebar'
 import './userpanel_globals.css'
 
 export const metadata = {
@@ -7,9 +8,11 @@ export const metadata = {
 
 export default function UserLayout({ children }) {
   return (
-    <div className='bg-red-400'>
-        User Layout
-        {children}
-    </div>
+    <body>
+        <div className='flex'>
+            <Sidebar/>
+        </div>
+
+    </body>
   )
 }

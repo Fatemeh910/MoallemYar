@@ -1,12 +1,13 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+  } */
   
   body {
     font-family: vazirmatn;
     direction: rtl;
+    background: #F2F2F2;
   }
   
   
