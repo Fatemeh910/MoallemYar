@@ -9,9 +9,11 @@
 .icon{
    position: absolute;
    bottom: 0;
-   right: 0;
-   padding: 10px 15px 7px 15px;
-   
-  
-   
+   right: 5px;
+   width: 80.5px;
+    height: 82.5px;
+    top: 75px;
+    left: 13px;
+    border: 1.5px;
+
 }
