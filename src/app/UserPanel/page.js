@@ -1,10 +1,11 @@
 import Examarea from "@/components/Examarea";
+import Topbar from "@/components/Topbar";
 
 
 const UserPanelDashboard = () => {
   return (
     <>
-    Exam
+    <Topbar />
     <Examarea/>
     Area
     </>
