@@ -21,7 +21,7 @@ export default function MenuMobile() {
   return (
     <>
 
-      <div className="container">
+      <div className="flex items-center justify-center" >
         <div className={`menuToggle ${isRotate ? "active" : null}`}
           onClick={Change}>
 
@@ -32,7 +32,7 @@ export default function MenuMobile() {
               <Image src={Close} alt="خروج از منوی کاربری" />
             }
           </div>
-          <span></span>
+          <span className="shadow-md rounded-full"></span>
         </div>
         <div className="menu">
           <ul>

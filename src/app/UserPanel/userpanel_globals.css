@@ -16,7 +16,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: skyblue;
   }
   
   .menuToggle {
@@ -27,7 +26,7 @@
     width: 65px;
     height: 65px;
     background: #f2f2f2;
-    border: 5px solid skyblue;
+    border: 5px solid #f2f2f2;
     border-radius: 50%;
     cursor: pointer;
     z-index: 10;
@@ -60,7 +59,7 @@
     top: 22px;
     background: transparent;
     border-top-right-radius: 20px;
-    box-shadow: 3px -6px skyblue;
+    box-shadow: 3px -6px #f2f2f2;
   }
   
   .menuToggle span::after {
@@ -72,7 +71,7 @@
     top: 22px;
     background: transparent;
     border-top-left-radius: 20px;
-    box-shadow: -3px -6px skyblue;
+    box-shadow: -3px -6px #f2f2f2;
   }
   
   .menu ul {
