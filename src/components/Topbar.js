@@ -1,6 +1,7 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { Avatar, Popover, Button } from "antd";
+import Link from "next/link";
 
 export default function Topbar() {
   const [open, setOpen] = useState(false);
@@ -25,17 +26,30 @@ export default function Topbar() {
       <div className="flex">
         <p style={{ color: "#555555" }}> علی امیری ، خوش آمدید </p>
         <Popover
-        content={<a onClick={hide} className="flex align-center"> <img src="/assets/icon/powerButton.svg" alt="powerButton"/><p style={{color:"#EE6E62" , fontSize:17}}>خروج</p></a>}
-        title={<div className="flex"><img src="/assets/icon/userOutline.svg" alt="userOutline"/><p className="mr-2">پروفایل کاربری</p></div>}
-        trigger="click"
-        open={open}
-        onOpenChange={handleOpenChange}
-      >
-        <Avatar size={30} className="mr-6" />
-      </Popover>
-        
+          content={
+            <a onClick={hide} className="flex align-center pb-3 pr-2
+            pl-2">
+              <img src="/assets/icon/powerButton.svg" alt="powerButton" />
+              <p style={{ color: "#EE6E62", fontSize: 17 }}>خروج</p>
+            </a>
+          }
+          title={
+            <div className="flex hover:w-full hover:p-0">
+              <a href="#" className="flex p-2 hover:bg-slate-100 hover:w-full hover:h-full
+              " >
+                <img src="/assets/icon/userOutline.svg" alt="userOutline" />
+                <p className="mr-2">پروفایل کاربری</p>
+              </a>
+            </div>
+          }
+          trigger="click"
+          open={open}
+          onOpenChange={handleOpenChange}
+          
+        >
+          <Avatar size={30} className="mr-6 " />
+        </Popover>
       </div>
-
     </div>
   );
 }

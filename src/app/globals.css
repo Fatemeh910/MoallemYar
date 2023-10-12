@@ -13,3 +13,11 @@ body {
 .ant-skeleton {
   width: 100% !important;
 }
+.ant-popover-inner{
+  padding: 0 !important;
+  overflow: hidden;
+}
+  
+.ant-popover-inner-content{
+  padding: 0 !important;
+}
