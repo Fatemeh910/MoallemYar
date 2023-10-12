@@ -8,11 +8,15 @@ body {
   font-family: vazirmatn;
   direction: rtl;
 }
-/* Rectangle 13 */
+
+a {
+  font-family: vazirmatn;
+}
 
 .ant-skeleton {
   width: 100% !important;
 }
+
 .ant-popover-inner{
   padding: 0 !important;
   overflow: hidden;
@@ -20,4 +24,9 @@ body {
   
 .ant-popover-inner-content{
   padding: 0 !important;
+
+
+.ant-popover-inner{
+  padding: 0 !important;
+
 }

@@ -20,7 +20,7 @@ export default function UserLayout({ children }) {
                     <MenuMobile />
                 </div>
 
-                <main className='overflow-scroll'>
+                <main className='overflow-hidden'>
                     {children}
                 </main>
             </div>
