@@ -25,8 +25,8 @@ export default function Topbar() {
       <div className="flex">
         <p style={{ color: "#555555" }}> علی امیری ، خوش آمدید </p>
         <Popover
-        content={<a onClick={hide}>Close</a>}
-        title="Title"
+        content={<a onClick={hide} className="flex align-center"> <img src="/assets/icon/powerButton.svg" alt="powerButton"/><p style={{color:"#EE6E62" , fontSize:17}}>خروج</p></a>}
+        title={<div className="flex"><img src="/assets/icon/userOutline.svg" alt="userOutline"/><p className="mr-2">پروفایل کاربری</p></div>}
         trigger="click"
         open={open}
         onOpenChange={handleOpenChange}
