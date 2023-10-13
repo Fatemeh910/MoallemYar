@@ -10,13 +10,13 @@ const content = (
   <div className="flex flex-col text-right">
     <Link
       href="#"
-      className="text-textColor text-textColor hover:text-linkHoverColor"
-    >
+      className="text-textColor hover:text-black rounded-md py-2 px-5 text-right hover:bg-gray-100 "
+      >
       لینک شماره 1
     </Link>
     <Link
       href="#"
-      className="text-textColor text-textColor hover:text-linkHoverColor"
+      className="text-textColor hover:text-black rounded-md py-2 px-5 text-right hover:bg-gray-100 "
     >
       لینک شماره 2
     </Link>
@@ -37,10 +37,8 @@ const Exambox = (Props) => {
       <div className="flex ">
         <div className=" justify-betweem mx-2 rounded-2xl flex flex-col shadow-md">
           <div className="">
-            <Image
+            <img
               src={Props.imageSrc}
-              width={350}
-              height={450}
               style={{ borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
               alt="exam image"
             />
@@ -54,6 +52,7 @@ const Exambox = (Props) => {
                 trigger="click"
               >
                 <img
+                  className="p-1"
                   src="/assets/icon/verticalmenupoints.svg"
                   alt="verticalmenu"
                 />
@@ -61,20 +60,19 @@ const Exambox = (Props) => {
             </div>
           </div>
           <div className="flex justify-between mx-2 flex-row-reverse mb-2 mt-1 items-center">
-            <div className="text-dateColor">{Props.date}</div>
-            <div className="text-timeColor">{Props.time}</div>
+            <small className="text-dateColor">{Props.date}</small>
             <div className="">
               {!like ? (
                 <img
                   src="/assets/icon/heart.svg"
                   onClick={change}
-                  className="cursor-pointer"
+                  className="cursor-pointer p-1"
                 />
               ) : (
                 <img
                   src="/assets/icon/redheart.svg"
                   onClick={change}
-                  className="cursor-pointer"
+                  className="cursor-pointer p-1"
                 />
               )}
             </div>

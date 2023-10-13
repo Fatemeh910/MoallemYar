@@ -1,10 +1,15 @@
 import Examarea from "@/components/Examarea";
+
 import StatBox from "@/components/StatBox";
+
+import Topbar from "@/components/Topbar";
+
 
 
 const UserPanelDashboard = () => {
   return (
     <>
+    <Topbar/>
     Exam
     <Examarea/>
     <StatBox/>
