@@ -30,13 +30,13 @@ export default function MenuMobile() {
           <ul>
             <li style={{ "--i": "0.1s" }}>
               <Link href="#" title="پیشخوان">
-              <img className="active:brightness-200" src="/assets/icon/homeIcon.svg" alt="پیشخوان" />
+              <img className="active:brightness-200" src="/assets/icon/HomeIcon.svg" alt="پیشخوان" />
 
             </Link>
             </li>
             <li style={{ "--i": "0.2s" }}>
               <Link href="#" title="امتحانات جدید">
-              <img className="active:brightness-200" src="/assets/icon/clendar.svg" alt="امتحانات جدید" />
+              <img className="active:brightness-200" src="/assets/icon/Clendar.svg" alt="امتحانات جدید" />
             </Link>
             </li>
             <li></li>
@@ -47,7 +47,7 @@ export default function MenuMobile() {
             </li>
             <li style={{ "--i": "0.1s" }}>
               <Link href="#" title="پروفایل کاربری">
-              <img className="active:brightness-200" src="/assets/icon/profile.svg" alt="پروفایل کاربری" />
+              <img className="active:brightness-200" src="/assets/icon/Profile.svg" alt="پروفایل کاربری" />
             </Link>
             </li>
           </ul>
