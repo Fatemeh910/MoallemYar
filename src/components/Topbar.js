@@ -30,11 +30,12 @@ export default function Topbar() {
           theme={{
             token: {
               colorLinkHover: "#555555",
-            
+              
             },
           }}
         >
           <Popover
+          
             content={
               <a
                 onClick={hide}
@@ -60,6 +61,7 @@ export default function Topbar() {
             trigger="click"
             open={open}
             onOpenChange={handleOpenChange}
+            overlayStyle = {{left: '7px'}}
           >
             <Avatar
               size={40}
