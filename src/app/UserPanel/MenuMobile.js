@@ -19,9 +19,9 @@ export default function MenuMobile() {
 
           <div className="box">
             {!isRotate ?
-              <img src="/assets/icon/HamburgerMenu.svg" alt="منوی کاربری" />
+              <img className="menu-mobile-icon" src="/assets/icon/HamburgerMenu.svg" alt="منوی کاربری" />
               :
-              <img src="/assets/icon/Close.svg" alt="خروج از منوی کاربری" />
+              <img className="menu-mobile-icon" src="/assets/icon/Close.svg" alt="خروج از منوی کاربری" />
             }
           </div>
           <span className="shadow-md rounded-full"></span>
@@ -30,24 +30,24 @@ export default function MenuMobile() {
           <ul>
             <li style={{ "--i": "0.1s" }}>
               <Link href="#" title="پیشخوان">
-              <img src="/assets/icon/HomeIcon.svg" alt="پیشخوان" />
+              <img className="active:brightness-200 menu-mobile-icon" src="/assets/icon/HomeIcon.svg" alt="پیشخوان" />
 
             </Link>
             </li>
             <li style={{ "--i": "0.2s" }}>
               <Link href="#" title="امتحانات جدید">
-              <img src="/assets/icon/Clendar.svg" alt="امتحانات جدید" />
+              <img className="active:brightness-200 menu-mobile-icon" src="/assets/icon/Clendar.svg" alt="امتحانات جدید" />
             </Link>
             </li>
             <li></li>
             <li style={{ "--i": "0.2s" }}>
               <Link href="#" title="لیست دانش آموزان">
-              <img src="/assets/icon/Users.svg" alt="لیست دانش آموزان" />
+              <img className="active:brightness-200 menu-mobile-icon" src="/assets/icon/users.svg" alt="لیست دانش آموزان" />
             </Link>
             </li>
             <li style={{ "--i": "0.1s" }}>
               <Link href="#" title="پروفایل کاربری">
-              <img src="/assets/icon/Profile.svg" alt="پروفایل کاربری" />
+              <img className="active:brightness-200 menu-mobile-icon" src="/assets/icon/Profile.svg" alt="پروفایل کاربری" />
             </Link>
             </li>
           </ul>
