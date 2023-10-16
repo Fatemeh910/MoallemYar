@@ -12,9 +12,9 @@ export default function Topbar() {
   };
 
   return (
-    <div className="flex w-full  bg-white rounded-full mt-2 p-2  justify-between items-center">
+    <div className="flex w-full  bg-white rounded-full mt-2  p-2  justify-between items-center">
       <div className="">
-        <div className="flex items-center">
+        <div className="flex ">
           <img
             src="/assets/icon/homeOutline.svg"
             alt="homeIcon"
@@ -29,8 +29,8 @@ export default function Topbar() {
           content={
             <a
               onClick={hide}
-              className="flex align-center pb-3 pr-2
-            pl-2"
+              className="flex items-center pb-3 pr-2
+            pl-2 hover:bg-slate-100 hover:w-full hover:h-full"
             >
               <img src="/assets/icon/powerButton.svg" alt="powerButton" />
               <p style={{ color: "#EE6E62", fontSize: 17 }}>خروج</p>
