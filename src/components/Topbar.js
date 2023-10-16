@@ -29,7 +29,8 @@ export default function Topbar() {
         <ConfigProvider
           theme={{
             token: {
-              colorLinkHover:"#555555"
+              colorLinkHover: "#555555",
+            
             },
           }}
         >
@@ -52,7 +53,7 @@ export default function Topbar() {
               "
                 >
                   <img src="/assets/icon/userOutline.svg" alt="userOutline" />
-                  <p className="mr-2">پروفایل کاربری</p>
+                  <p className="mr-2 font-normal">پروفایل کاربری</p>
                 </a>
               </div>
             }
