@@ -1,15 +1,19 @@
- {
+ /* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   } */
-  
+   */
   body {
     font-family: vazirmatn;
     direction: rtl;
     background: #F2F2F2;
   }
   
+  img{
+    width: 27px;
+    height: 27px;
+  }
   
   .container {
     display: flex;
@@ -50,7 +54,7 @@
     inset: 0;
   }
   
-  .menuToggle span::before {
+  /* .menuToggle span::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -72,7 +76,7 @@
     background: transparent;
     border-top-left-radius: 20px;
     box-shadow: -3px -6px #f2f2f2;
-  }
+  } */
   
   .menu ul {
     position: relative;
@@ -219,7 +223,7 @@ span {
 .menuToggle.active~.menu ul li {
   opacity: 1;
   visibility: visible;
-  transform: translateY(15px);
+  transform: translateY(19px);
   transition-delay: calc(0.75s + var(--i));
   transition-duration: 0.2s;
 }
