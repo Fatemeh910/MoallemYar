@@ -26,7 +26,13 @@ export default function Topbar() {
       </div>
       <div className="flex items-center">
         <p style={{ color: "#555555" }}> علی امیری،خوش آمدید </p>
-        <ConfigProvider>
+        <ConfigProvider
+          theme={{
+            token: {
+              colorLinkHover:"#555555"
+            },
+          }}
+        >
           <Popover
             content={
               <a
