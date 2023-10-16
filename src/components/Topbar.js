@@ -12,7 +12,7 @@ export default function Topbar() {
   };
 
   return (
-    <div className="flex w-full bg-white rounded-full mt-2 p-2  align-center justify-between">
+    <div className="flex w-full bg-white rounded-full mt-2 p-2   justify-between items-center">
       <div className="">
         <div className="flex items-center">
           <img
@@ -23,8 +23,8 @@ export default function Topbar() {
           <p style={{ color: "#555555" }}>پیشخوان </p>
         </div>
       </div>
-      <div className="flex">
-        <p style={{ color: "#555555" }}> علی امیری ، خوش آمدید </p>
+      <div className="flex items-center">
+        <p style={{ color: "#555555" }}> علی امیری،خوش آمدید </p>
         <Popover
           content={
             <a
@@ -52,7 +52,7 @@ export default function Topbar() {
           open={open}
           onOpenChange={handleOpenChange}
         >
-          <Avatar size={30} className="mr-6 " />
+          <Avatar size={40} className="mr-6 " />
         </Popover>
       </div>
     </div>
