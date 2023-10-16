@@ -12,7 +12,7 @@ export default function Topbar() {
   };
 
   return (
-    <div className="flex w-full bg-white rounded-full mt-2 p-2   justify-between items-center">
+    <div className="flex w-full  bg-white rounded-full mt-2 p-2  justify-between items-center">
       <div className="">
         <div className="flex items-center">
           <img
@@ -52,7 +52,7 @@ export default function Topbar() {
           open={open}
           onOpenChange={handleOpenChange}
         >
-          <Avatar size={40} className="mr-6 " />
+          <Avatar size={40} className="mr-6 " src={<img src="/assets/img/userImage.jpg" alt="avatar" />} />
         </Popover>
       </div>
     </div>
