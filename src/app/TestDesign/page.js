@@ -1,9 +1,9 @@
-import TestAnswer from "@/components/TestAnswer";
+import TestAnswerArea from "@/components/TestAnswerArea";
 
 export default function TestDesign() {
   return (
     <>
-    <TestAnswer />
+    <TestAnswerArea />
     </>
   )
 }
