@@ -13,7 +13,7 @@ export default function Topbar() {
   };
 
   return (
-    <div className="flex w-full  bg-white rounded-full mt-2  p-2  justify-between items-center">
+    <div className="flex w-full  bg-white rounded-full mt-2  p-2 shadow justify-between items-center">
       <div className="">
         <div className="flex ">
           <img
@@ -25,7 +25,7 @@ export default function Topbar() {
         </div>
       </div>
       <div className="flex items-center">
-        <p style={{ color: "#555555" }}> علی امیری،خوش آمدید </p>
+        <p style={{ color: "#555555" }}> علی امیری، خوش آمدید </p>
         <ConfigProvider
           theme={{
             token: {
