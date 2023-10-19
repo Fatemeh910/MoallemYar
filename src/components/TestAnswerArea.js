@@ -25,36 +25,32 @@ export default () => {
   };
   return (
     <div className="w-full flex flex-col">
-      <div className="">
-        <p style={{ color: "#555555", marginRight: 75, marginBottom: 5 }}>
-          پاسخ سوال
-        </p>
-
-        <div className="flex justify-center items-end mb-5 mt-3">
-          <div className="w-10/12 ">
-            <TestAnswer />
-          </div>
-        </div>
-        <div className="mb-2 ">
-          <span
-            style={{
-              marginRight: 60,
-            }}
-          ></span>
-          <Space size={[0, 8]} wrap>
-            {tagsData.map((tag) => (
-              <CheckableTag
-                key={tag}
-                checked={selectedTags.includes(tag)}
-                onChange={(checked) => handleChange(tag, checked)}
-                style={{ color: "#555555" }}
-              >
-                {tag}
-              </CheckableTag>
-            ))}
-          </Space>
+      <div className="flex justify-center items-end mb-5 mt-3">
+        <div className="w-10/12 ">
+          <p style={{ color: "#555555", marginBottom: 5 }}>پاسخ سوال</p>
+          <TestAnswer />
+          <div className="mb-2 ">
+        <span
+          style={{
+           
+          }}
+        ></span>
+        <Space size={[0, 8]} wrap>
+          {tagsData.map((tag) => (
+            <CheckableTag
+              key={tag}
+              checked={selectedTags.includes(tag)}
+              onChange={(checked) => handleChange(tag, checked)}
+              style={{ color: "#555555" }}
+            >
+              {tag}
+            </CheckableTag>
+          ))}
+        </Space>
+      </div>
         </div>
       </div>
+
     </div>
   );
 };
