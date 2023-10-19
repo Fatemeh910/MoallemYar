@@ -40,20 +40,20 @@ export default function Topbar() {
               <a
                 onClick={hide}
                 className="flex items-center pb-3 pr-2
-            pl-2 hover:bg-slate-100 hover:w-full hover:h-full"
+            pl-2 hover:bg-slate-100 hover:w-full hover:h-full  "
               >
-                <img src="/assets/icon/powerButton.svg" alt="powerButton" />
-                <p style={{ color: "#EE6E62", fontSize: 17 }}>خروج</p>
+                <img width={24} src="/assets/icon/powerButton.svg" alt="powerButton" />
+                <p style={{ color: "#EE6E62", fontSize: 14}}>خروج</p>
               </a>
             }
             title={
-              <div className="flex hover:w-full hover:p-0">
+              <div className="flex hover:w-full hover:p-0 ">
                 <a
                   href="#"
                   className="flex p-2 hover:bg-slate-100 hover:w-full hover:h-full
               "
                 >
-                  <img src="/assets/icon/userOutline.svg" alt="userOutline" />
+                  <img width={20} src="/assets/icon/userOutline.svg" alt="userOutline" />
                   <p className="mr-2 font-normal">پروفایل کاربری</p>
                 </a>
               </div>
@@ -65,8 +65,9 @@ export default function Topbar() {
           >
             <Avatar
               size={40}
-              className="mr-6 "
+              className="mr-6 cursor-pointer hover:border-1 hover:border-gray-200 border-1 border-gray-50"
               src={<img src="/assets/img/userImage.jpg" alt="avatar" />}
+              
             />
           </Popover>
         </ConfigProvider>
