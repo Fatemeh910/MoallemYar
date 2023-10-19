@@ -32,7 +32,7 @@ const PreviewExam = () => {
           </Link>
           <Link href="#" className={style.finishQuestion}>
             <img
-              src="/assets/icon/tickMark.svg"
+              src="/assets/icon/tickmark.svg"
               alt="tickmark"
               className="mr-4"
             />
