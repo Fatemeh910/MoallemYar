@@ -12,8 +12,8 @@ export default function UserLayout({ children }) {
         <body>
             <div className='flex'>
                 <div className='md:flex hidden'> <Sidebar /> </div>
-                <div
-                    className='md:hidden block fixed bottom-0 pb-5 left-0 right-0'
+                <div 
+                    className='md:hidden block fixed bottom-0 pb-5 left-0 right-0 z-10'
                     style={{
                         background: "linear-gradient(to top, rgba(0,0,0,0.45), transparent 95%)"
                     }}>
