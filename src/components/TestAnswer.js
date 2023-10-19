@@ -13,6 +13,7 @@ export default () => {
         theme={{
           token: {
             borderRadius: 1,
+            
           },
         }}
       >
@@ -25,6 +26,7 @@ export default () => {
           }}
           onChange={onChange}
           placeholder=" پاسخ سوال رااینجابنویسید"
+          
           
         />
       </ConfigProvider>

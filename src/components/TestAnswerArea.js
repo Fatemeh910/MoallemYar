@@ -5,7 +5,7 @@ import { Space, Tag } from "antd";
 const { CheckableTag } = Tag;
 
 export default () => {
-  const tagsData = ["پاسخ", "سوال", "اینجا", "بنویسید"];
+  const tagsData = ["پاسخ", "سوال", "اینجا", "بنویسید" , "پاسخ", "سوال", "اینجا", "بنویسید"];
   const [selectedTags, setSelectedTags] = useState(["Books"]);
   const handleChange = (tag, checked) => {
     const nextSelectedTags = checked
