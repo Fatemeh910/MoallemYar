@@ -16,6 +16,7 @@ export default () => {
       return item != "";
     });
     setTagsData(seperated);
+    
   };
 
   const handleChange = (tag, checked) => {
