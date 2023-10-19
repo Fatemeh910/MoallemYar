@@ -21,9 +21,11 @@ export default () => {
           maxLength={100}
           style={{
             height: 60,
+            direction:"ltr",
           }}
           onChange={onChange}
           placeholder="پاسخ سوال رااینجابنویسید."
+          
         />
       </ConfigProvider>
     </div>

@@ -15,36 +15,8 @@ export default () => {
     setSelectedTags(nextSelectedTags);
   };
   return (
-    <div className="flex flex-col w-full mx-2">
-      <p>پاسخ سوال</p>
-      <div className="border-solid border-2 border-red-300">
-        <div className="flex items-end">
-          <div className="">
-            <TestAnswer />
-          </div>
-          <p className="text-red-300 mr-2">تک کلمه ای</p>
-        </div>
-        <div className="">
-          <span
-            style={{
-              marginRight: 8,
-            }}
-          >
-            
-          </span>
-          <Space size={[0, 8]} wrap>
-            {tagsData.map((tag) => (
-              <CheckableTag
-                key={tag}
-                checked={selectedTags.includes(tag)}
-                onChange={(checked) => handleChange(tag, checked)}
-              >
-                {tag}
-              </CheckableTag>
-            ))}
-          </Space>
-        </div>
-      </div>
+    <div className=" ">
+     
     </div>
   );
 };
