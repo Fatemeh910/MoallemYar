@@ -13,7 +13,7 @@ export default function Topbar() {
   };
 
   return (
-    <div className="flex w-full  bg-white rounded-full mt-2  p-2 shadow justify-between items-center">
+    <div className="flex w-full  bg-white rounded-full mt-2  px-2 py-3 shadow justify-between items-center">
       <div className="">
         <div className="flex ">
           <img
