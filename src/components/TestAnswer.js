@@ -24,7 +24,7 @@ export default () => {
             direction:"ltr",
           }}
           onChange={onChange}
-          placeholder="پاسخ سوال رااینجابنویسید."
+          placeholder=" پاسخ سوال رااینجابنویسید"
           
         />
       </ConfigProvider>

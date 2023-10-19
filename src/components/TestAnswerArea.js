@@ -17,7 +17,7 @@ export default () => {
   return (
     <div className="w-full flex flex-col">
       <div className="">
-        <p style={{ color: "#555555", marginRight: 75 }}>پاسخ سوال</p>
+        <p style={{ color: "#555555", marginRight: 75 , marginBottom:5}}>پاسخ سوال</p>
         <div className="border-solid border-2 border-red-300 ">
           <div className="flex justify-center items-end mb-5 mt-3">
             <div className="w-10/12 ">
@@ -29,7 +29,6 @@ export default () => {
             <span
               style={{
                 marginRight: 60,
-                
               }}
             ></span>
             <Space size={[0, 8]} wrap>
@@ -38,7 +37,8 @@ export default () => {
                   key={tag}
                   checked={selectedTags.includes(tag)}
                   onChange={(checked) => handleChange(tag, checked)}
-                  style={{color:"#555555"}}
+                  style={{ color: "#555555" }}
+                  
                 >
                   {tag}
                 </CheckableTag>
