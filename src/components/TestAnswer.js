@@ -14,6 +14,7 @@ export default () => {
           token: {
             borderRadius: 1,
             
+            
           },
         }}
       >
@@ -22,10 +23,10 @@ export default () => {
           maxLength={100}
           style={{
             height: 60,
-            direction:"ltr",
+            
           }}
           onChange={onChange}
-          placeholder=" پاسخ سوال رااینجابنویسید"
+          placeholder=" پاسخ سوال خود را اینجا واردکنید. "
           
           
         />

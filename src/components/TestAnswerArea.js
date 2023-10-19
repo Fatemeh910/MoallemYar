@@ -5,7 +5,16 @@ import { Space, Tag } from "antd";
 const { CheckableTag } = Tag;
 
 export default () => {
-  const tagsData = ["پاسخ", "سوال", "اینجا", "بنویسید" , "پاسخ", "سوال", "اینجا", "بنویسید"];
+  const tagsData = [
+    "پاسخ",
+    "سوال",
+    "اینجا",
+    "بنویسید",
+    "پاسخ",
+    "سوال",
+    "اینجا",
+    "بنویسید",
+  ];
   const [selectedTags, setSelectedTags] = useState(["Books"]);
   const handleChange = (tag, checked) => {
     const nextSelectedTags = checked
@@ -17,34 +26,33 @@ export default () => {
   return (
     <div className="w-full flex flex-col">
       <div className="">
-        <p style={{ color: "#555555", marginRight: 75 , marginBottom:5}}>پاسخ سوال</p>
-        <div className="border-solid border-2 border-red-300 ">
-          <div className="flex justify-center items-end mb-5 mt-3">
-            <div className="w-10/12 ">
-              <TestAnswer />
-            </div>
-            <p className="text-red-300 mr-2">تک کلمه ای</p>
+        <p style={{ color: "#555555", marginRight: 75, marginBottom: 5 }}>
+          پاسخ سوال
+        </p>
+
+        <div className="flex justify-center items-end mb-5 mt-3">
+          <div className="w-10/12 ">
+            <TestAnswer />
           </div>
-          <div className="mb-2 ">
-            <span
-              style={{
-                marginRight: 60,
-              }}
-            ></span>
-            <Space size={[0, 8]} wrap>
-              {tagsData.map((tag) => (
-                <CheckableTag
-                  key={tag}
-                  checked={selectedTags.includes(tag)}
-                  onChange={(checked) => handleChange(tag, checked)}
-                  style={{ color: "#555555" }}
-                  
-                >
-                  {tag}
-                </CheckableTag>
-              ))}
-            </Space>
-          </div>
+        </div>
+        <div className="mb-2 ">
+          <span
+            style={{
+              marginRight: 60,
+            }}
+          ></span>
+          <Space size={[0, 8]} wrap>
+            {tagsData.map((tag) => (
+              <CheckableTag
+                key={tag}
+                checked={selectedTags.includes(tag)}
+                onChange={(checked) => handleChange(tag, checked)}
+                style={{ color: "#555555" }}
+              >
+                {tag}
+              </CheckableTag>
+            ))}
+          </Space>
         </div>
       </div>
     </div>
