@@ -55,7 +55,7 @@
 .links{
   display: flex;
  justify-content: space-between;
- margin-top: 30px;
+ margin-top: 23px;
 }
 .previewSkeleton{
   height: 100% !important;
