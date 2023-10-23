@@ -1,11 +1,12 @@
-import PreviewExam from "@/components/PreviewExam"
+import PreviewExam from "@/components/PreviewExam";
+import SortableTestAnswer from "@/components/SortableTestAnswer/SortableTestAnswerArea";
+const NewQuestion = () => {
+  return (
+    <div className="flex">
+      <SortableTestAnswer />
+      <PreviewExam />
+    </div>
+  );
+};
 
-const NewQuestion = ()=>{
-    return (
-        <>
-        <PreviewExam />
-        </>
-    )
-}
-
-export default NewQuestion
+export default NewQuestion;
