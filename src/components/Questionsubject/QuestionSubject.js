@@ -1,7 +1,7 @@
 const QuestionSubject =() =>{
     return(
-        <div>
-        QuestionSubject
+        <div cl>
+        <h2>عنوان سوال</h2>
         </div>
     )
 }

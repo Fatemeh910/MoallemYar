@@ -4,9 +4,14 @@ import SortableTestAnswer from "@/components/SortableTestAnswer/SortableTestAnsw
 const NewQuestion = () => {
   return (
     <div className="flex">
-      <QuestionSubject/>
-      <SortableTestAnswer />
-      <PreviewExam />
+      <div className="flex flex-col">
+        <QuestionSubject />
+        <SortableTestAnswer />
+      </div>
+      {/* <div className="">
+        <PreviewExam />
+      </div> */}
+
     </div>
   );
 };
